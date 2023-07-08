@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="icon" type="image/x-icon" href="Images/TODO_Logo.jpg">
+    <script src="https://kit.fontawesome.com/69d25744bf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="fullparent" style="border: 5px solid black;">
+        
+        <h1 class="Heading">Todo List </h1>
+        <input placeholder="Add your new todo" type="text" id="todo">
+        
+        <button class="add" onclick="generateElement()"><i class="fa-solid fa-square-plus"></i></button>
+        <button class="cleara" onclick="DeleteAll()">Clear All</button>
+            <div>
+                <ol id="list">
+                    
+                </ol>
+            </div>
+        </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

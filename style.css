@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #68EACC 20%, blue 100%);
+    height: 100%;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    display: inline-block !important;
+    margin-left: 500px;
+    font-size: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Heading{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.parent{
+    display: inline;
+}
+li{
+    list-style: circle;
+    list-style-type: disc;
+    margin-top: 5px;
+}
+.fullparent{
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 25px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    width: 500px;
+    height: 600px;
+    display: inline-block;
+    background-color: white;
+    margin-left: -50px;
+    border: none !important;
+    box-shadow: 20px black !important;
+    justify-content: center;
+}
+h1{
+    color: blueviolet;
+    margin-left: 10px;
+    margin-top: 8px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+#list {
+    position: relative;
+} 
+input{
+    height: 40px;
+    text-align: start;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 20px;
+    background: transparent;
+    caret-color: black;
+    font-size: 22px;
+    font-style: normal;
+    color: black;
+    border-style: outset;
+}
+input::placeholder{
+    color: black;
+    text-align: center;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden; 
+    outline: hidden;
+}
+input:focus{
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden; 
+    outline: hidden;
+}
+.add{
+    cursor: pointer;
+    display: inline;
+    border-radius: 3px;
+    font-size: 43px;
+    width: fit-content;
+    height: 40px;
+    background: transparent;
+    color: green;
+    border: none;
+    outline: hidden;
+}
+
+.add:hover{
+    background-color: white;
+    color: black;
+}
+.cleara{
+    border-radius: 3px;
+    display: inline-block;
+    color: whitesmoke;
+    background-color: red;
+    border: none;
+    font-size: 20px;
+    width: 83px;
+    margin-top: 15px;
+    margin-left: 310px;
+    height: 30px;
+    font-weight: normal;
+}
+.cleara:hover{
+    background: transparent;
+    color: black;
+    font-weight: bold;
+}
+.textlist{
+    font-size: 25px;
+    margin-left: 50px;
+}
+.textlist button{
+    overflow-y: auto;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 18px;
+    width: 80px;
+    height: 28px;
+    font-weight: normal;
+    position: absolute;
+    border-radius: 2px;
+    border: none;
+}
+button{
+    transition: all 0.3s ease;
+}
+.btn{
+ background-color: brown !important;
+    margin-left: 140px;
+}
+.btne{
+    margin-left: 45px;
+}
